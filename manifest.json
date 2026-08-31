@@ -1,0 +1,9 @@
+{
+	"id": "recall-last-command",
+	"name": "Recall Last Command",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Repeat the last executed command with a hotkey.",
+	"author": "netzmensch",
+	"isDesktopOnly": false
+}
