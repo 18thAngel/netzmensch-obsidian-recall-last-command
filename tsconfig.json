@@ -1,17 +1,27 @@
 {
 	"compilerOptions": {
-		"baseUrl": ".",
-		"inlineSourceMap": true,
-		"inlineSources": true,
+		"allowJs": false,
+
+		"strict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+
 		"module": "ESNext",
-		"target": "ES2018",
-		"allowJs": true,
-		"noImplicitAny": true,
-		"moduleResolution": "node",
-		"importHelpers": true,
+		"target": "es6",
+		"moduleResolution": "bundler",
+
+		"esModuleInterop": true,
 		"isolatedModules": true,
-		"strictNullChecks": true,
-		"lib": ["DOM", "ES2018"]
+
+		"sourceMap": true,
+		"inlineSources": true,
+		"noEmit": true,
+
+		"types": [
+			"node"
+		]
 	},
-	"include": ["src/**/*.ts"]
+	"include": [
+		"src/**/*.ts"
+	]
 }
