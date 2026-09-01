@@ -1,3 +1,39 @@
 [Nn]ode_modules/
 [Oo]utput/
 .vscode/
+.npmrc
+
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Local env files
+.env
+.env.*
+
+# Obsidian test vaults
+.obsidian/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Package manager cache
+.npm/
+
+# Coverage
+coverage/
