@@ -1,12 +1,12 @@
 {
-	"id": "netzmensch-obsidian-recall-last-command",
+	"id": "netzmensch-recall-last-command",
 	"name": "Recall Last Command",
 	"version": "1.0.0",
 	"minAppVersion": "1.1.0",
 	"description": "Repeat the last executed command with a hotkey. Useful for repeating the last command without having to navigate through menus or remember the command ID. Especially useful for commands that don't have a dedicated hotkey assigned.",
-	"author": "Alexander Szymanski (netzmensch.com)",
+	"author": "Alexander Szymanski (18thAngel)",
 	"isDesktopOnly": false,
 	"license": "MIT",
-	"authorUrl": "https://netzmensch.com",
+	"authorUrl": "https://18thAngel.com",
 	"repository": "https://github.com/18thAngel/netzmensch-obsidian-recall-last-command"
 }
